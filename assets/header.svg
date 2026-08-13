@@ -63,9 +63,9 @@
   <text x="54" y="100" class="title name-step name-4">xqzm</text>
   <text x="54" y="100" class="title name-step name-5">xqzme</text>
   <rect class="cursor" x="58" y="52" width="4" height="52" rx="2" fill="#F0F6FC"/>
-  <text x="54" y="132" class="line bio-a">22-year-old programmer based in Germany</text>
-  <text x="54" y="132" class="line bio-b">low-level code, reversing, tooling</text>
-  <text x="54" y="132" class="line bio-c">static analysis, small tools, notes</text>
+  <text x="54" y="140" class="line bio-a">23-year-old programmer based in Germany</text>
+  <text x="54" y="140" class="line bio-b">low-level code, reversing, tooling</text>
+  <text x="54" y="140" class="line bio-c">static analysis, small tools, notes</text>
 
   <g transform="translate(560 26)">
     <rect x="0" y="0" width="650" height="128" rx="10" fill="#090D13" stroke="#21262D"/>
