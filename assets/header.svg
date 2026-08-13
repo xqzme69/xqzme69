@@ -8,7 +8,7 @@
     .mn { font: 13px Consolas, "Fira Code", monospace; fill: #F0F6FC; }
     .op { font: 13px Consolas, "Fira Code", monospace; fill: #A5D6FF; }
     .comment { font: 13px Consolas, "Fira Code", monospace; fill: #D2A8FF; }
-    .cursor { animation: blink 1.1s steps(2, start) infinite; }
+    .cursor { animation: blink 1.1s steps(2, start) infinite, cursorMove 6.4s steps(1, end) infinite; }
     .name-step { opacity: 0; }
     .name-1 { animation: name1 6.4s steps(1, end) infinite; }
     .name-2 { animation: name2 6.4s steps(1, end) infinite; }
@@ -28,6 +28,14 @@
     .f6 { animation: f6 19.6s ease-in-out infinite; }
     .f7 { animation: f7 19.6s ease-in-out infinite; }
     @keyframes blink { 0%, 42% { opacity: 1; } 43%, 100% { opacity: 0; } }
+    @keyframes cursorMove {
+      0%, 9.9%, 98.6%, 100% { transform: translateX(0); }
+      10%, 19.9%, 94%, 98.5% { transform: translateX(36px); }
+      20%, 29.9%, 88%, 93.9% { transform: translateX(70px); }
+      30%, 39.9%, 82%, 87.9% { transform: translateX(112px); }
+      40%, 49.9%, 74%, 81.9% { transform: translateX(165px); }
+      50%, 73.9% { transform: translateX(186px); }
+    }
     @keyframes name1 { 0%, 9.9%, 20%, 93.9%, 98.6%, 100% { opacity: 0; } 10%, 19.9%, 94%, 98.5% { opacity: 1; } }
     @keyframes name2 { 0%, 19.9%, 30%, 87.9%, 94%, 100% { opacity: 0; } 20%, 29.9%, 88%, 93.9% { opacity: 1; } }
     @keyframes name3 { 0%, 29.9%, 40%, 81.9%, 88%, 100% { opacity: 0; } 30%, 39.9%, 82%, 87.9% { opacity: 1; } }
@@ -54,11 +62,7 @@
   <text x="54" y="100" class="title name-step name-3">xqz</text>
   <text x="54" y="100" class="title name-step name-4">xqzm</text>
   <text x="54" y="100" class="title name-step name-5">xqzme</text>
-  <rect class="cursor" x="58" y="52" width="4" height="52" rx="2" fill="#F0F6FC">
-    <animate attributeName="x" dur="6.4s" repeatCount="indefinite" calcMode="discrete"
-      values="58;94;128;170;223;244;244;223;170;128;94;58"
-      keyTimes="0;.10;.20;.30;.40;.50;.66;.74;.82;.88;.94;1"/>
-  </rect>
+  <rect class="cursor" x="58" y="52" width="4" height="52" rx="2" fill="#F0F6FC"/>
   <text x="54" y="132" class="line bio-a">22-year-old programmer based in Germany</text>
   <text x="54" y="132" class="line bio-b">low-level code, reversing, tooling</text>
   <text x="54" y="132" class="line bio-c">static analysis, small tools, notes</text>

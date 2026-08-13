@@ -43,7 +43,10 @@
   <a href="https://github.com/xqzme69/cheater-to-salatstealer-report"><img src="assets/repo-cheater.svg" width="100%" alt="cheater-to-salatstealer-report"></a>
 </p>
 <p>
-  <a href="https://github.com/xqzme69/cs2sign"><img src="assets/repo-cs2sign.svg" width="100%" alt="cs2sign"></a>
+  <a href="https://github.com/xqzme69/Deobfusk8"><img src="assets/repo-deobfusk8.svg" width="100%" alt="Deobfusk8"></a>
+</p>
+<p>
+  <a href="https://github.com/xqzme69/Amice-Deobfuscator"><img src="assets/repo-amice.svg" width="100%" alt="Amice-Deobfuscator"></a>
 </p>
 <p>
   <a href="https://github.com/xqzme69/AntiObfusHunter"><img src="assets/repo-antiobfus.svg" width="100%" alt="AntiObfusHunter"></a>
