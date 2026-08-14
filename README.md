@@ -49,5 +49,11 @@
   <a href="https://github.com/xqzme69/Amice-Deobfuscator"><img src="assets/repo-amice.svg" width="100%" alt="Amice-Deobfuscator"></a>
 </p>
 <p>
+  <a href="https://github.com/xqzme69/BinProtect-Devirtualizer"><img src="assets/repo-binprotect.svg" width="100%" alt="BinProtect-Devirtualizer"></a>
+</p>
+<p>
   <a href="https://github.com/xqzme69/AntiObfusHunter"><img src="assets/repo-antiobfus.svg" width="100%" alt="AntiObfusHunter"></a>
+</p>
+<p>
+  <a href="https://github.com/xqzme69/nasm-seh64"><img src="assets/repo-seh64.svg" width="100%" alt="nasm-seh64"></a>
 </p>
